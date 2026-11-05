@@ -1,0 +1,11 @@
+Multi-Agent Systems: Coordination and Cooperation
+
+A multi-agent system contains several independent agents that share an environment. Each agent has its own goals and knowledge, yet the agents must often work together to solve problems that are too large for any single agent.
+
+Coordination is the central challenge. Agents can coordinate through negotiation, where they bargain over who does which task. They can also use auctions, in which agents bid for tasks and the lowest cost bidder wins. Another approach is a shared blackboard, a common workspace where every agent posts partial results that others can read and build on.
+
+Communication between agents follows agreed protocols. Early research used formal agent communication languages, and newer systems built on language models simply exchange natural language messages. Whatever the format, the agents need a shared understanding of the task.
+
+Swarm systems take a different route. Many simple agents follow local rules, and useful group behaviour emerges without any central controller. Ant colony optimisation and robot swarms are well known examples.
+
+Conflicts appear when agents compete for the same resource. Designers resolve them with priorities, voting, or a supervisor agent that makes the final decision. Cooperation can also fail when one agent behaves selfishly, so incentive design matters as much as the algorithms themselves.

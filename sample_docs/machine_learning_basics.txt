@@ -1,0 +1,11 @@
+Machine Learning Basics
+
+Machine learning is the study of algorithms that improve their performance by learning patterns from data instead of following hand-written rules. There are three broad families.
+
+Supervised learning uses labelled examples. A model sees inputs together with the correct outputs and learns to predict the output for new inputs. Classification predicts a category, and regression predicts a number. Common algorithms include linear regression, decision trees, and neural networks.
+
+Unsupervised learning works without labels. Clustering groups similar items, and dimensionality reduction compresses data while keeping its structure. Embeddings are a related idea: a neural network maps text or images to vectors so that similar items lie close together.
+
+Reinforcement learning trains an agent through trial and error. The agent takes actions in an environment, receives rewards, and gradually learns a policy that earns more reward over time.
+
+Overfitting happens when a model memorises the training data and fails on new data. Practitioners fight it with more data, simpler models, regularisation, and by checking performance on a held-out validation set. Evaluation metrics such as accuracy, precision, recall, and F1 score describe how well a model performs.

@@ -1,0 +1,42 @@
+# virtual environments
+.venv/
+venv/
+env/
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+# private user data: indexes, uploaded documents, history
+data/*
+!data/.gitkeep
+*.db
+*.db-wal
+*.db-shm
+uploads/
+# secrets and local config
+.env
+.streamlit/secrets.toml
+# editor
+.vscode/settings.json
+.idea/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Private documents and local data
+data/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated files
+.streamlit/secrets.toml
+.DS_Store
